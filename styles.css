@@ -72,7 +72,8 @@ html, body {
 }
 
 .cube:hover{
-  -webkit-animation-play-state: paused
+  -webkit-animation-play-state: paused;
+  cursor:crosshair
 }
 
 .card {
@@ -176,6 +177,7 @@ html, body {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 20px;
+  /* cursor: zoom-in; */
   /* border-style: dotted; */
 }
 
@@ -190,6 +192,7 @@ html, body {
   padding-right: 40px;
   animation: animate 2s ease-in-out infinite;
   filter: blur(20px);
+  cursor: zoom-in;
 }
 
 @keyframes rotatee{
@@ -207,9 +210,12 @@ html, body {
   transform: translateX(200px);
   filter: blur(8px);
   transition: all 0.2s ease-in-out;
+  cursor: crosshair;
 }
 
 .credits-name:hover {
   filter: blur(0px);
+  cursor: crosshair;
+
 }
 
