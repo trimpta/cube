@@ -110,7 +110,7 @@ html, body {
 }
 
 #back {
-    transform:rotatey(180deg) translatez(-150px);
+    transform:rotatey(0deg) translatez(150px);
     opacity: 0.9;
 }
 
@@ -136,7 +136,7 @@ html, body {
    }
 
   .cube:hover > #back{
-    transform:rotatey(180deg) translatez(-200px);
+    transform:rotatey(0deg) translatez(200px);
   }
 
   .cube:hover > #front{
